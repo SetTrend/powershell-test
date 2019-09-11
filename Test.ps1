@@ -1,0 +1,31 @@
+$ErrorActionPreference = "Stop"
+
+[string]$private:Name = 'Test-Name'
+[string]$script:ActualController = (Get-ADDomainController).HostName
+[string]$private:FreeSam = 'abc000034'
+
+Get-ADUser -Server $ActualController -Filter "(DisplayName -eq '$Name' -or DisplayName -like '$Name|*') -and SamAccountName -ne '$FreeSam'"
+Get-ADUser -Server $ActualController -Filter "(DisplayName -eq '$Name' -or DisplayName -like '$Name|*') -and SamAccountName -ne '$FreeSam'"
+Get-ADUser -Server $ActualController -Filter "(DisplayName -eq '$Name' -or DisplayName -like '$Name|*') -and SamAccountName -ne '$FreeSam'"
+Get-ADUser -Server $ActualController -Filter "(DisplayName -eq '$Name' -or DisplayName -like '$Name|*') -and SamAccountName -ne '$FreeSam'"
+Get-ADUser -Server $ActualController -Filter "(DisplayName -eq '$Name' -or DisplayName -like '$Name|*') -and SamAccountName -ne '$FreeSam'"
+Get-ADUser -Server $ActualController -Filter "(DisplayName -eq '$Name' -or DisplayName -like '$Name|*') -and SamAccountName -ne '$FreeSam'"
+Get-ADUser -Server $ActualController -Filter "(DisplayName -eq '$Name' -or DisplayName -like '$Name|*') -and SamAccountName -ne '$FreeSam'"
+Get-ADUser -Server $ActualController -Filter "(DisplayName -eq '$Name' -or DisplayName -like '$Name|*') -and SamAccountName -ne '$FreeSam'"
+Get-ADUser -Server $ActualController -Filter "(DisplayName -eq '$Name' -or DisplayName -like '$Name|*') -and SamAccountName -ne '$FreeSam'"
+Get-ADUser -Server $ActualController -Filter "(DisplayName -eq '$Name' -or DisplayName -like '$Name|*') -and SamAccountName -ne '$FreeSam'"
+Get-ADUser -Server $ActualController -Filter "(DisplayName -eq '$Name' -or DisplayName -like '$Name|*') -and SamAccountName -ne '$FreeSam'"
+Get-ADUser -Server $ActualController -Filter "(DisplayName -eq '$Name' -or DisplayName -like '$Name|*') -and SamAccountName -ne '$FreeSam'"
+Get-ADUser -Server $ActualController -Filter "(DisplayName -eq '$Name' -or DisplayName -like '$Name|*') -and SamAccountName -ne '$FreeSam'"
+Get-ADUser -Server $ActualController -Filter "(DisplayName -eq '$Name' -or DisplayName -like '$Name|*') -and SamAccountName -ne '$FreeSam'"
+Get-ADUser -Server $ActualController -Filter "(DisplayName -eq '$Name' -or DisplayName -like '$Name|*') -and SamAccountName -ne '$FreeSam'"
+Get-ADUser -Server $ActualController -Filter "(DisplayName -eq '$Name' -or DisplayName -like '$Name|*') -and SamAccountName -ne '$FreeSam'"
+Get-ADUser -Server $ActualController -Filter "(DisplayName -eq '$Name' -or DisplayName -like '$Name|*') -and SamAccountName -ne '$FreeSam'"
+Get-ADUser -Server $ActualController -Filter "(DisplayName -eq '$Name' -or DisplayName -like '$Name|*') -and SamAccountName -ne '$FreeSam'"
+Get-ADUser -Server $ActualController -Filter "(DisplayName -eq '$Name' -or DisplayName -like '$Name|*') -and SamAccountName -ne '$FreeSam'"
+Get-ADUser -Server $ActualController -Filter "(DisplayName -eq '$Name' -or DisplayName -like '$Name|*') -and SamAccountName -ne '$FreeSam'"
+Get-ADUser -Server $ActualController -Filter "(DisplayName -eq '$Name' -or DisplayName -like '$Name|*') -and SamAccountName -ne '$FreeSam'"
+Get-ADUser -Server $ActualController -Filter "(DisplayName -eq '$Name' -or DisplayName -like '$Name|*') -and SamAccountName -ne '$FreeSam'"
+Get-ADUser -Server $ActualController -Filter "(DisplayName -eq '$Name' -or DisplayName -like '$Name|*') -and SamAccountName -ne '$FreeSam'"
+Get-ADUser -Server $ActualController -Filter "(DisplayName -eq '$Name' -or DisplayName -like '$Name|*') -and SamAccountName -ne '$FreeSam'"
+Get-ADUser -Server $ActualController -Filter "(DisplayName -eq '$Name' -or DisplayName -like '$Name|*') -and SamAccountName -ne '$FreeSam'"
